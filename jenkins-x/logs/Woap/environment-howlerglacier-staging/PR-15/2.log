@@ -1,0 +1,10 @@
+Step: build-step-credential-initializer:
+
+{"level":"warn","ts":1551973108.383575,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1551973108.3840473,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+Step: build-step-git-source-0:
+
+{"level":"warn","ts":1551973109.7507017,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1551973110.9298906,"logger":"fallback-logger","caller":"git-init/main.go:92","msg":"Successfully cloned \"https://github.com/Woap/environment-howlerglacier-staging.git\" @ \"28a1bdee3c4f8d350af3499ae0993fc0a979a8df\" in path \"/workspace\""}
+Step: build-step-build:
+
